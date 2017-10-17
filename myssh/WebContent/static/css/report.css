@@ -1,0 +1,101 @@
+body {
+	background-color: #efeff4;
+}
+.ui-list > li.ui-border-t:first-child, .ui-list > li:first-child > .ui-border-t {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, transparent), color-stop(0.5, #e0e0e0), to(#e0e0e0)); 
+}
+.ui-header-positive {
+    background-color: #6197f3;
+}
+
+.setting {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    margin-top: -15px;
+    background: transparent;
+    border: 0;
+    border-width: 0;
+    width: .5rem;
+    height: .5rem;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.top {
+	width: 100%;
+	height: 2rem;
+	background: url(../images/jiefangTip.png) no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+.topbar {
+	width: 90%;
+	overflow: auto;
+	position: absolute;
+	top: .8rem;
+	left: .5rem;
+}
+.topLeft {
+	width: 10%;
+	height: .5rem;
+	float: left;
+}
+.topLeft img {
+	width:.5rem;
+	height: .5rem; 
+	position: absolute;
+}
+
+.topRight {
+	width: 85%;
+    height: .6rem;
+    float: left;
+    border-bottom: 1px solid #9db7e6;
+    overflow: hidden;
+}
+.topRight h2 {
+	color: #fff;
+	font-size: .377rem;
+}
+
+#rili {
+	position: absolute;
+	top: 0rem;
+}
+
+.ui-tab-nav {
+    height: 2rem;
+}
+
+.ui-tab-nav li {
+    height: 2rem;
+}
+
+li img {
+	width: .6rem;
+    height: .7rem;
+    margin-top: .3rem;
+    margin-left: .8rem;
+}
+li span {
+	position: relative;
+    top: .55rem;
+    left: -.82rem;
+    font-size: .4rem;
+}
+.num {
+	color: #feb5b5;
+	font-size: .377rem;
+}
+.ui-list li h4 {
+    color: #666;
+    font-size: .377rem;
+}
+

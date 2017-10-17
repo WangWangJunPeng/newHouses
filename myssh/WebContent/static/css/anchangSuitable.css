@@ -1,0 +1,53 @@
+@charset "utf-8";
+html,body {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+.ui-header h1 {
+	font-size: 16px;
+	/* height: 1rem; */
+}
+.ui-header-positive {
+	background-color: #508bef;
+}
+[class^="ui-icon-"] {
+	font-size: 24px;
+}
+.ui-border-b {
+    background-position: left bottom;
+    background-image: none;
+}
+.icon {
+   width: .6rem; height: .6rem;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.iconfont {
+	font-family:"iconfont" !important;
+ 	font-size:.6rem;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ui-footer {
+	height: 1.36rem;
+}
+.ui-border-t {
+	
+	background-color: #ffffff;
+}
+.ui-footer li div {
+	font-size: .32rem;
+	color: #666666;
+}
+.ui-border-r {
+	background-image:none;
+}
+.ui-footer ~ .ui-container {
+	padding-top: .4rem;
+}
+.colorB {
+	color: #508bef;
+}

@@ -1,0 +1,13 @@
+/* 
+* @Author: Marte
+* @Date:   2017-09-05 09:32:58
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-05 17:32:54
+*/
+ul, ol, li {list-style: none;padding: 0;margin: 0;}
+#main-content{background:#f0f4fb;}
+.frame{background:#f0f4fb;}
+.noDrop span{padding-left:5px;color:#ffffff;font-size: 16px;}
+.listOne{background-color: #ffffff;box-shadow: 0 0 2px 2px #ebeff6;border-radius: 4px;}
+th,td{text-align: center;font-size: 14px;color:#616b88;padding:20px !important;}
+.addDiv{width:480px;background: #ffffff;position:fixed;height:1000px; box-shadow:2px 0px 10px rgba(0,0,10,0.1) inset ;z-index: 1000;top:50px;right:-480px;}

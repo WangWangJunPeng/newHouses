@@ -1,0 +1,33 @@
+.ui-header-positive, .ui-footer-positive {
+    background-color: #fff;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+
+.ui-header-positive a, .ui-header-positive a:active, .ui-header-positive i, .ui-footer-positive a, .ui-footer-positive a:active, .ui-footer-positive i {
+    color: #333;
+}
+
+html,body {
+	background-color: #efeff4;
+}
+
+.changePwd {
+	margin-top:.1rem;
+	margin-bottom: .2rem;
+}
+
+h4 {
+	color: #666;
+    font-size: 14px;
+}
+
+.quit {
+	text-align: center;
+    color: #333;
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+}

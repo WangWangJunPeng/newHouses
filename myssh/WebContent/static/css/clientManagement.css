@@ -1,0 +1,35 @@
+/* 
+* @Author: Marte
+* @Date:   2017-08-14 15:09:00
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-16 20:00:11
+*/
+ul, ol, li {list-style: none;padding: 0;margin: 0;}
+#main-content{background:#f0f4fb;}
+.frame{background:#f0f4fb;}
+.addDiv{width:470px;background: #ffffff;position:fixed;height:1000px; box-shadow:2px 0px 10px rgba(0,0,10,0.1) inset ;z-index: 1000;top:50px;right:-470px;}
+.addDiv .colmd img{cursor:pointer;}
+
+.addDivTwo{width:470px;background: #ffffff;position:fixed;height:1000px; box-shadow:2px 0px 10px rgba(0,0,10,0.1) inset ;z-index: 1000;top:50px;right:-470px;}
+.addDivTwo .colmd img{cursor:pointer;}
+
+
+.listOne{background-color: #ffffff;box-shadow: 0 0 2px 2px #ebeff6;border-radius: 4px;}
+.topSearch{width:20%;border:1px solid #46c1de;height:36px;line-height: 36px;border-radius: 4px;margin-left:4%;margin-top: 40px;}
+.topSelect{width:10%;margin-top:40px;height:36px;line-height: 36px;margin-left:63%;}
+.shaixuan{font-size: 16px;color:#616b88;font-weight: bold;margin-left: 18%;;}
+.same{font-size: 14px;color:#616b88;display: inline-block;height:28px;}
+.mo{font-size: 14px;color:#616b88;cursor: pointer;}
+.noDrop span{padding-left:5px;color:#ffffff;font-size: 16px;}
+.visitNum{font-size: 14px;color:#616b88;cursor: pointer;}
+.customStatus{font-size: 14px;color:#616b88;cursor: pointer;}
+.cuBiao{font-size: 14px;color:#616b88;cursor: pointer;width: 100%;display:inline-block;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;}
+.guishu{font-size: 14px;color:#616b88;cursor: pointer;}
+.btnAll{border:0;width:80px;font-size: 14px;border-radius: 4px;}
+.biaoqian{font-size: 14px;color:#616b88;cursor: pointer;}
+.btnOne{background:#ffffff;color:#999999;height:30px;line-height: 30px;border:1px solid #dde1e8;}
+.btnTwo{background:#f5f7fb;color:#616b88;height:28px;border:1px solid #d6dfe6;line-height: 28px;margin-left: 4%;}
+th,td{text-align:center;padding:16px !important;}
+th{font-size: 16px;color:#616b88;font-weight: bold;}
+td{font-size: 14px;color:#616b88;}
+/*input:checked+label{color:#1c9efe;}*/

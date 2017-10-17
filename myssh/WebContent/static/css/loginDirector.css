@@ -1,0 +1,116 @@
+body {
+	background-color: #508bef;
+}
+.logo {
+	margin-top: .725rem;
+	width: 100%;
+	text-align: center;
+}
+.logo img {
+	width: 1.485rem;
+	height: 1.39rem;
+}
+.passForm {
+	margin-top: 0.525rem;
+	text-align: center;
+}
+.passForm input {
+	width: 2.34rem;
+	height: .5rem;
+	border-radius: .2rem;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #afc5f3;
+	border-top: 1px solid #afc5f3;
+	background-color: #6297f1;
+	margin-bottom: .175rem;
+	padding-left: .6rem;
+	color: #ffffff;
+	font-size: 16px;
+
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff; opacity:1;font-size:16px; 
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;opacity:1;font-size:16px; 
+}
+
+input:-ms-input-placeholder{
+    color: #fff;opacity:1;font-size:16px; 
+}
+
+input::-webkit-input-placeholder{
+    color: #fff;opacity:1;font-size:16px; 
+}
+.pssname {
+	position: relative;
+}
+.pssword {
+	position: relative;
+}
+.pssname img {
+	position: absolute;
+	top: .16rem;
+	left: .65rem;
+	width: .18rem;
+	height: .2rem;
+}
+.pssword img {
+	position: absolute;
+	top: .16rem;
+	left: .65rem;
+	width: .16rem;
+	height: .21rem;
+}
+.passForm button {
+	width: 2.94rem;
+	height: .5rem;
+	border-radius: .2rem; 
+	border:none;
+	background-color: #fff;
+	color: #508bef;
+	font-size: 16px;
+	text-align: center;
+}
+.forget {
+	margin-top: 0.22rem;
+	color: #ededed;
+	font-size: 13px;
+	text-align: center;	
+}
+.forget span {
+	display: block;
+	width: 1rem;
+	height: 3px;	
+	opacity: .72;
+}
+.left {
+	position: absolute;
+	left: .4rem;
+	top: .065rem;
+  background: -webkit-linear-gradient(left, #508bef , #9cbdf6); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #508bef, #9cbdf6); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #508bef, #9cbdf6); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #508bef , #9cbdf6); /* 标准的语法 */
+}
+.right {
+	position: absolute;
+	right: .4rem;
+	top: .065rem;
+  background: -webkit-linear-gradient(left, #9cbdf6 , #508bef); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #9cbdf6, #508bef); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right, #9cbdf6, #508bef); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to right, #9cbdf6 , #508bef); /* 标准的语法 */
+}
+.forget p {
+	position: relative;
+	opacity: 0.9;
+}
+#msgInfo {
+	padding-right: .4rem;
+	text-align: right;
+	color: #f89393;
+	font-size: 12px;
+}

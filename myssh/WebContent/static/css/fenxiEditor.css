@@ -1,0 +1,39 @@
+.ui-header-positive i {
+	color:#333333;
+}
+[class^="ui-icon-"] {
+	font-size: .6rem;
+	line-height: 1rem;
+}
+.wancheng {
+	position: fixed;
+	top: .25rem;
+	right: .2rem;
+	font-size: .32rem;
+	color: #333;
+	font-weight: normal;
+	z-index: 200;
+}
+.group {
+	position: absolute;
+	right: .1rem;
+	top: .1rem;
+}
+.group input {
+	display:none;
+}
+.group img {
+	z-index:200;
+	margin-top: 0;
+	width:.5rem;
+	height: .5rem;
+}
+.ui-header ~ .ui-container {
+	padding-top: 6.5rem;
+}
+.top {
+	height: 6.5rem;
+}
+.ui-header ~ .ui-container {
+	border-top:1rem solid transparent;
+}

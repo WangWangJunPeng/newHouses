@@ -1,0 +1,31 @@
+.ui-header-positive, .ui-footer-positive {
+    background-color: #fff;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+
+.ui-header-positive a, .ui-header-positive a:active, .ui-header-positive i, .ui-footer-positive a, .ui-footer-positive a:active, .ui-footer-positive i {
+    color: #333;
+}
+
+table {
+	border: 1px solid #f2f2f2;
+    width: 100%;
+    margin-top: .5rem;
+}
+th {
+	text-align: center;
+	background: #e4edfa;
+	color: #666;
+	font-size: .46rem;
+}
+tr {
+	text-align: center;
+	height: 1rem;
+	background: #f5f9fe;
+	font-size: .377rem;
+}
+
+.first {
+	background: #fff;
+}

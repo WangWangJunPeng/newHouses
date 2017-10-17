@@ -1,0 +1,81 @@
+#main {
+	width: 100%;
+	height: 2rem;
+}
+.maintip  {
+	top:2.7rem;
+}
+.lists {
+	position: relative;
+    width: 100%;
+    padding: 0.12rem 0;
+    background-color: #fff;
+    border-bottom: 0.075rem solid #efeff4;
+}
+.lists table {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+/* 模糊度 */
+.model {
+	-webkit-filter: blur(12px);
+    -moz-filter: blur(2px);
+    -ms-filter: blur(2px);
+    -o-filter: blur(2px);
+    filter: blur(2px); 
+    opacity: 0.7;
+}
+.lists img {
+	width: .6rem;
+	height: .6rem;
+}
+.lists table td {
+    width: .85rem;
+    height: .7rem;
+    border: 1px solid #f2f2f2;
+    text-align: center;
+}
+.line1 {
+    color: #999999;
+    font-size: 12px;
+}
+.line2 {
+    color: #666666;
+    font-size: 14px;
+}
+.nameCss {
+	font-weight: bold;
+}
+.dielog {
+	z-index: 2000;
+	width: 100%;
+	position: absolute;
+	top: .5rem;
+	background-color: #fff;
+}
+.middel {
+	position: relative;
+	width: 80%;
+	background: #fff;
+	margin: 0 auto;
+	padding-left: .35rem;
+	border-radius: 4px;
+}
+.middel .ui-icon-close-page {
+	position: absolute;
+	right: .2rem;
+	top: -0.35rem;
+}
+.middel p {
+	height: .3rem;
+	line-height: .3rem;
+	font-size: 14px;
+	color: #666666;
+}
+.middel p img {
+	vertical-align: middle;
+	width: 0.12rem;
+	height: 0.16rem;
+	margin-right: .1rem;
+}

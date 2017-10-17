@@ -1,0 +1,373 @@
+.ui-header h1 {
+    margin-top: .4rem;
+}
+.ui-header-positive, .ui-footer-positive {
+    background-color: #fff;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+
+.ui-header-positive a, .ui-header-positive a:active, .ui-header-positive i, .ui-footer-positive a, .ui-footer-positive a:active, .ui-footer-positive i {
+    color: #333;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.titlebar {
+	width: 100%;
+	height: 1.13rem;
+	background: #508bef;
+}
+
+.titlebar p {
+	height: 1.13rem;
+	font-size: .3733rem;
+	color: #fff;
+}
+.lefttitle {
+	float: left;
+	width: 50%;
+	line-height: 1.13rem;
+}
+
+.leftwidth {
+	padding-left: 10%;
+}
+.righttltle {
+	float: left;
+	width: 50%;
+	padding-left: 10%;
+	line-height: 1.13rem;
+	border-left: 1px solid #fff;
+}
+/* 
+中间 */
+.people .container {
+	padding-top:.4rem;
+}
+/*zhong*/
+.people {
+	height: 3rem;
+	background: #fff;
+}
+.left {
+	float: left;
+	width: 30%;
+}
+.pro {
+	width: 2.2rem;
+	height: 2.2rem;
+	border-radius: 50%;
+	background:#aec5eb;
+	color:#fff;
+	text-align: center;
+    line-height: 2.2rem;
+    font-size: .876rem;
+}
+.right {
+	height: 2.6rem;
+	float: left;
+	width: 70%;
+}
+.right1 {
+	height: 2.6rem;
+	line-height: 1.3rem;
+	float: left;
+	width: 70%;
+}
+.right1 p {
+	height:.6rem;
+	line-height:.6rem;
+	margin-bottom:.2rem;
+	font-size: .4rem;	
+	color: #666666;
+}
+.right img , .right1 img {
+	width: .4rem;
+	height: .4rem;
+	margin-right: 5%;
+}
+.right p {
+	height:.6rem;
+	line-height:.6rem;
+	margin-bottom:.2rem;
+	font-size: .4rem;	
+	color: #666666;
+}
+.top1 {
+	
+}
+.yuanyuan {
+	display: inline-block;
+	width: 28%;
+	height: .6rem;
+	line-height: .6rem;
+	text-align: center;
+	border: 1px solid #fd6767;
+	border-radius: .1rem;
+	margin-right: 5%;
+	font-size: .32rem;
+	color: #fd6767;
+}
+/*状态指示*/
+.state {
+	width: 100%;
+	height: 1.6rem;
+	background: #fff;
+	border-bottom: 2px solid #e1e1e6;
+	margin-bottom: .4rem;
+}
+.statelist {
+	width: 94%;
+	margin: 0 auto;
+	border-top: 1px solid #dadada;
+	overflow: hidden;
+	height: 1.6rem;
+}
+ul {
+	list-style: none;
+	padding-left: 0;
+	overflow: auto;
+}
+.list1 {
+	float: left;
+	width: 25%;
+	text-align: center;
+	height: 1.6rem;
+	font-size: .3733rem;
+	color: #666666;
+}
+.list1 p {
+	font-size: .4rem;
+	height: .8rem;
+	line-height: .6rem;
+	margin-bottom: 0;
+}
+.list1 .pt {
+	position: relative;
+}
+.list1 .dian {
+	position: absolute;
+	top: 30%;
+	left: 42%;
+	display: block;	
+	width: .32rem;
+	height: .32rem;
+	border-radius: 50%;
+	background-color: #e0e0e0;
+}
+/*信息展示*/
+#slider {
+	background: #fff;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+	color:#fd6767 ;
+}
+.mui-segmented-control .mui-control-item {
+	line-height: 1rem;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item {
+	color: #333;
+}
+.mui-segmented-control .mui-control-item {
+	font-size: .4rem;
+}
+.mui-segmented-control.mui-segmented-control-inverted ~ .mui-slider-progress-bar {
+	background-color: #fd6767;
+}
+/*底部*/
+.mui-bar-tab {
+	height: 1.8rem;
+	border-top: 1px solid #dadada;
+}
+.midde {
+	width: 94%;
+	margin: 0 auto;
+	height: 1.8rem;
+	padding-top: .25rem;
+}
+#firetBtn {
+	margin-right: 3%;
+}
+.midde button {
+	position: relative;
+	width: 100%;
+	height: 1.3rem;
+	background: #508bef;
+	border-radius: 5px;
+	color: #fff;
+	font-size: .4rem;
+	font-weight: 600;
+}
+/*信息展示区*/
+.mui-slider .mui-slider-group .mui-slider-item {
+	min-height: 26rem;
+}
+.contain {
+	width: 94%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.contain textarea {
+	width: 100%;
+	height: 7rem;
+	margin-bottom: 0;
+	background: #f3f4f5;
+	color: #999999;
+	font-size: .4rem;
+}
+#firetBtn img {
+	width: .46667rem;
+	height: .44rem;
+	margin-right: .2rem;
+	vertical-align: middle;
+}
+#btn-succ img {
+	width: .5066rem;
+	height: .3733rem;
+	margin-right: .2rem;
+	vertical-align: middle;
+}
+.messList li {
+	width:auto;
+	display:inline-block !important;
+	display:inline; 
+	border-radius: .1rem;
+	padding: 0 .2rem;
+	height: .8rem;
+	line-height: .8rem;
+	text-align: center;
+	background: #fff;
+	font-size: .3733rem;
+	color: #508bef;
+	border:1px solid #508bef;
+	margin-bottom: .25rem;
+}
+.list {
+	overflow: auto;
+	margin-bottom: .2rem;
+}
+.list .leftbox {
+	float: left;
+	width: 22%;
+	line-height: 1rem;
+	color: #666666;
+	font-size: .32rem;
+}
+.leftbox span {
+	float: left;
+	display: inline-block;
+	width: .15rem;
+	height: .4rem;
+	background: #fd6767;
+	margin-right: .2rem;
+}
+.list .rightbox {
+	float: left;
+	height: 1rem;
+	line-height: 1rem;
+	width: 78%;
+}
+.rightbox ul {
+	margin: 0;
+}
+.title {
+	float: left;
+	font-size: .4rem;
+	color: #333;
+}
+.messList li {
+	margin-right:.1rem;
+}
+.mainMes {
+	width: 92%;
+	margin:0 auto;
+}
+.shuxian {
+	position: absolute;
+	top: .3rem;
+	left: .3rem;
+	display: block;
+	width: .15rem;
+	height: .4rem;
+	background-color: #666666;
+}
+.headTop {
+	position: relative;
+	width: 100%;
+	height: 1rem;
+	padding-left: .6rem;
+	line-height: 1rem;
+	background-color: #efeff4;
+	color: #666666;
+	font-size: .4rem;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.line , .list {
+	width: 100%;
+	height: 1rem;
+	overflow: hidden;
+}
+.leftBox , .right {
+	float: left;
+	color: #666666;
+	width: 50%;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: .32rem;
+}
+.right {
+	text-align: right;
+}
+#scroll2 .mui-scroll {
+	padding-top: .4rem;
+}
+.imglist ul {
+	overflow: auto;
+	height: 1rem;
+}
+.imglist ul input {
+	display: none;
+}
+.imglist ul li {
+	padding-top: .05rem;
+	width: 12%;
+	float: left;
+	height: 1rem;
+}
+.imglist ul li label {
+	width: 100%;
+	height: 1rem;
+	z-index: 200;
+}
+.imglist ul li img {
+	width: 0.466rem;
+	height: 0.44rem;
+	z-index: 0;
+}
+.width1 {
+	float: left;
+	width: 30%;
+}
+#mySwitch {
+	float: left;
+	margin-top: .2rem;
+	width: 1.7rem;
+	height: .6rem;
+}
+.list .rightbox1 {
+	float: left;
+	width: 78%;
+}
+.jiben .line {
+	border-bottom: 1px solid #efeff4;
+}
+
+#desc {
+	text-align: right;
+}

@@ -1,0 +1,255 @@
+
+*{
+    padding: 0;
+    margin:0;
+}
+ul,li{
+ list-style: none;
+ }
+html,body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.container{
+    width: 100%;
+    height:100%;
+    background-color: #f0f4fb;
+    position: relative;
+}
+.leftArea{
+    width:0%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.mapBox{
+    width:100%;
+    height:100%;
+    /*overflow:hidden;*/
+     position: relative;
+     background-color: #ffffff;
+     top:20px;
+     left:0px;
+}
+.mapBox #allmap{
+    position:absolute;
+    width:98%;
+    height:98%;
+    margin:auto;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.topNotice{
+    position:relative;
+    margin-left:20px;
+    margin-top: 20px;
+    height:30px;
+    line-height: 30px;
+    overflow:hidden;
+    width:100%;
+}
+.topNotice img{
+     position:relative;
+    top:3px;
+    left:0px;
+}
+.topNotice .gong{
+    position:relative;
+    top:0px;
+    left:4px;
+    color:#ff5c5b;
+    font-size:14px;
+}
+.topNotice ul{
+    position:absolute;
+     left:80px;
+     top:2px;
+     color: #616b88;
+     font-size: 14px;
+}
+.topNotice ul li{
+    height:30px;
+    line-height: 30px;;
+}
+.rightArea{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:url("http://root-1252627680.cossh.myqcloud.com/pictures/adPic/20170803160419915.png");
+    background-size: 100% 100%;
+}
+.topName{
+    text-align: center;
+    margin-top: 70px;
+}
+.topName p{
+    color:#ffffff;
+    margin-top:30px;
+    text-shadow: 0 5px 5px #424242;
+}
+.welcomeName{
+	 text-align: center;
+    margin-top: 210px;
+}
+.welcomeName p{
+    color:#ffffff;
+    margin-top:30px;
+    text-shadow: 0 5px 5px #424242;
+}
+.twoName{
+    text-align: center;
+    margin-top: 60px;
+}
+.twoName select{
+    border-radius: 6px;
+    background-color: rgba(60,60,60,0.8);
+    border:0;
+    height: 40px;
+    line-height: 40px;
+    color:#ffffff;
+    width:34%;
+    padding-left:4px;
+}
+.threeName{
+    text-align: center;
+    margin-top: 40px;
+    width:60%;
+    height:30px;
+    line-height: 30px;
+    margin-left: 20%;
+    border-bottom: 1px solid #46c1de;
+}
+.threeName p{
+    font-size: 20px;
+    color:#ffffff;
+}
+.fourth{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.error{
+	font-size:12px;
+    
+    height:20px;
+    line-height:20px;
+    color:#ff6161;
+   
+    
+	
+	
+}
+.fifth{
+	margin-top: 200px;
+    text-align: center;
+}
+.fifth button{
+    width:320px;
+    height:70px;
+    line-height: 70px;
+    text-align: center;
+    border:0;
+    border-radius: 10px;
+    background-color: #46c1de;
+    font-size: 24px;
+    color:#ffffff;
+}
+.fourth #finish{
+    width:200px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    border:0;
+    border-radius: 6px;
+    background-color: #46c1de;
+    font-size: 16px;
+    color:#ffffff;
+}
+.cn{
+     margin-top: 40px;
+    text-align: right;
+    width:68%;
+    height:40px;
+    line-height: 40px;
+    margin-left: 16%;
+}
+.every{
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    /* border:1px solid #46c1de; */
+    border-radius: 6px;
+    background-color: rgba(60,60,60,0.8);
+     position:relative;
+
+}
+.every img{
+    position:absolute;
+    top:10px;
+    left:16px;
+}
+.every input{
+	position:absolute;
+	top:5px;
+	left:45px;
+    width:80%;
+    height:30px;
+    line-height: 30px;
+    font-size: 14px;
+    color:#ffffff ;
+    background-color: transparent;
+     border:0;
+     outline: none;
+     padding-left: 10px;
+}
+.cner{
+    margin-top: 20px;
+    text-align: right; 
+    width:68%;
+    height:40px;
+    line-height: 40px;
+    margin-left: 16%;
+}
+.agree{
+    margin-top: 10px;
+  
+    width:68%;
+    height:20px;
+    line-height: 20px;
+    margin-left: 16%;
+}
+.agree input{
+    width:16px;
+    height:16px;
+    border-radius: 4px;;
+    background:#353535;
+    color:#46c1de;
+    vertical-align: middle;
+}
+.agree label{
+
+    color:#ffffff;
+    font-size: 14px;
+    
+}
+
+.message{
+    width:360px;
+    height:160px;
+    text-align: center;
+    background-color: rgba(137,136,135,0.8);
+    border-radius: 6px;
+    line-height: 160px;
+    font-size: 18px;
+    color:#ffffff;
+    position:absolute;
+    top:70px;
+    right:25%;
+    display:none;
+}

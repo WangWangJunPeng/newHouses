@@ -1,0 +1,333 @@
+.getway {
+	position: relative;
+    height: 40%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    display: none;
+    border-radius: 30px;
+    background: #fff;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.getway p {
+	color: #2e445d;
+	font-size: 30px;
+	width: 100%;
+	height: 56px;
+    line-height: 56px;
+}
+
+.way {
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #2db1ef;
+	margin-top: 3%;
+	font-size: 26px;
+	height: 18%;
+	color: #2e445d;
+	background: transparent;
+}
+.way:hover{
+	background: #2db1ef;
+	color: #fff;
+}
+.getFir {
+	margin-top: 5%;
+}
+.closeBtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	border: 0;
+	background: transparent;
+	right: 5px;
+    top: 5px;
+}
+
+.vistway {
+	position: relative;
+    height: 35%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20%;
+    display: none;
+    border-radius: 30px;
+    background: #fff;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.vistway p {
+	color: #2e445d;
+	font-size: 30px;
+	width: 100%;
+	height: 56px;
+    line-height: 56px;    
+}
+
+.chooseCus {
+	position: relative;
+	width: 80%;
+	margin-left: 12%;
+	background: #fff;
+	margin-top: 15%;
+	border-radius: 30px;
+	height: 50%;
+	display: none;
+	border: 1px solid #2db1ef;
+}
+.seceltCus {
+	position: absolute;
+	width: 70%;
+	margin-left: 15%;
+	background: #fff;
+	margin-top: 10%;
+	border-radius: 30px;
+	height: 50%;
+	display: none;
+	z-index: 2010;
+	border: 1px solid #2db1ef;
+}
+.topTit {
+	width: 100%;
+	text-align: center;
+	color: #2e445d;
+	font-size: 30px;
+	height: 50px;
+    line-height: 60px;
+}
+.pagelist5,.pagelist6 {
+	position: absolute;
+    margin: 0 auto;
+    bottom: 5px;
+    margin-left: 46%;
+}
+.chooseBtn {
+	right: 10%;
+}
+.cus {
+	border: 1px solid #2db1ef;
+	border-radius: 5px;
+	position: relative;
+	color: #2e445d;
+}
+
+.chooseimg {
+    width: 70px;
+    height: 70px;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.chooseimg img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 贵宾到访 */
+.vistConfir {
+	position: relative;
+	width: 60%;
+	background: #fff;
+	border-radius: 30px;
+	margin-left: 20%;
+	margin-top: 15%;
+	display: none;
+}
+.con {
+	margin-top: 20px;
+	border-top: 1px solid #2db1ef;
+}
+.people {
+	/* width: 50%; */
+	border-right: 1px solid #2db1ef;
+}
+.halfBox {
+	width: 50%;
+	margin-left: 25%;
+}
+.phoneBor {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	/* margin-left: 10px; */
+}
+.Num {
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    color: #676767;
+    text-align: center;
+    line-height: 50px;
+}
+
+.Num:hover {
+	background: #b9c0c7;
+}
+.vistType {
+	width: 100%;
+	height: 50px;
+	margin-top: -5px;
+}
+.vistType button {
+	height: 100%;
+	width: 50%;	
+	text-align: center;
+	font-size: 20px;
+	background: transparent;
+	border: 1px solid #2db1ef;
+}
+.vistType button:hover {
+	background: #2db1ef;
+	color: #fff;
+}
+.firBtn {
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.secBtn {
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.knowCus p {
+	width: 100%;
+	color: #2e445d;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.know {
+	width: 100%;
+	border: 1px solid #2db1ef;
+	border-radius: 5px;
+	height: 50px;
+    padding-top: 8px;
+    line-height: 35px;
+	text-align: left;
+	margin-bottom: 15px;
+}
+.know img {
+	width: 30px;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 1.5%;
+}
+/* .jfImg {
+	width: 150px;
+    height: 150px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+.jfImg img {
+	width: 100%;
+	height: 100%;
+} */
+.top10 {
+	margin-top: 10%;
+	font-size: 20px;
+}
+.top10 span {
+	font-size: 16px;
+	color: #2db1ef;
+}
+.conVist {
+	width: 40%;
+    margin-left: 30%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    border-radius: 5px;
+    background: #ddd;
+    font-size: 20px;
+    border: 1px solid #2db1ef;
+}
+
+.select_btn {
+	width: 40%;
+    margin-left: 35%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 60px;
+    border-radius: 5px;
+    background: #2db1ef;
+    color:#fff;
+    font-size: 20px;
+}
+
+/* 查询电话 */
+.selectPho {
+	position: relative;
+	width: 80%;
+	background: #fff;
+	border-radius: 10px;
+	margin-left: 12%;
+	margin-top: 15%;
+	display: none;
+}
+
+.phoShow {
+	width: 100%;
+	margin-top: 26px;
+    height: 40px;
+    border-radius: 5px;
+	border: 1px solid #2db1ef;
+	background: #f1f4f8;
+	color: #fff;
+	text-align: center;
+}
+	
+	.ok{width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2db1ef;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px}
+    
+.delete {
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2db1ef;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px
+}
+
+.chanVist {
+	width: 40%;
+    margin-left: 30%;
+    margin-top: 15px;
+    height: 50px;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 20px;
+    border: 1px solid #2db1ef;
+}
+
+.changeCus {
+	position: relative;
+    width: 80%;
+    margin-left: 12%;
+    background: #fff;
+    margin-top: 15%;
+    border-radius: 10px;
+    height: 50%;
+    display: none;
+}
+
+.knowCus {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+

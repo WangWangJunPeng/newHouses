@@ -1,0 +1,138 @@
+body {
+	background-color: #efeff4;
+}
+
+.ui-header-positive {
+    background-color: #6197f3;
+}
+.ui-tab-nav li {
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .377rem;
+}
+.ui-tab-nav {
+    height: 1rem;
+}
+.top {
+	width: 100%;
+	height: 2rem;
+	background: url(../images/jiefangTip.png) no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+.topbar {
+	width: 90%;
+	overflow: hidden;
+	position: absolute;
+	top: .8rem;
+	left: .5rem;
+}
+.topLeft {
+	width: 10%;
+	height: .5rem;
+	float: left;
+}
+.topLeft img {
+	width:.5rem;
+	height: .5rem; 
+	position: absolute;
+}
+
+.topRight {
+	width: 85%;
+    height: .6rem;
+    float: left;
+    border-bottom: 1px solid #9db7e6;
+}
+.topRight h2 {
+	color: #fff;
+	font-size: .377rem;
+}
+
+#rili {
+	position: absolute;
+	top: 0rem;
+}
+
+.msg{
+	background: #fff;
+	width: 100%;
+	height: 2rem;
+	border-bottom: 1px solid #dadada;
+}
+.first {
+    margin-top: .1rem;
+}
+.competition {
+	width: 1.2rem;
+    height: 100%;
+    margin-left: .5rem;
+    float: left;
+}
+.competition p {
+	width: 1.1rem;
+    height: 1.1rem;
+    background: #508bef;
+    color: #fff;
+    font-size: .468rem;
+    text-align: center;
+    line-height: 1.1rem;
+    border-radius: 1.1rem;
+    margin-top: .45rem;
+}
+.competition img {
+	width: 1.2rem;
+    height: 1rem;
+    margin-top: .5rem;
+}
+.cir {
+	width: 1.12rem;
+    height: 1.12rem;
+    margin-top: .45rem;
+    line-height: 1.12rem;
+    background: #508bef;
+    border-radius: 50%;
+    text-align: center;
+    font-size: .45rem;
+    color: #fff;
+}
+.cir span {
+	margin-top: .2rem;
+}
+.portrait {
+	width: 1.5rem;
+    height: 100%;
+    float: left;
+    margin-left: .3rem;
+}
+.portrait img{
+	width: 1.2rem;
+    height: 1.2rem;
+    margin-top: .4rem;
+    border-radius: 1.2rem;
+}
+.name {
+	color: #333;
+	font-size: .45rem;
+    margin-top: .6rem;
+    /* width: 20%; */
+    float: left;
+}
+
+.rightbox {
+	float: right;
+    height: 100%;
+    width: 3rem;
+    text-align: center;
+}
+.num {
+	color: #333;
+    font-size: .45rem;
+    padding-top: .35rem;
+}
+.dec {
+	color: #ccc;
+	font-size: .377rem;
+}
+

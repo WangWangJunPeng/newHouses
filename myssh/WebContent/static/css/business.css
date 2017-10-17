@@ -1,0 +1,78 @@
+.laydate_body .laydate_box, .laydate_body .laydate_box * {
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.topT {
+	width: 100%;
+	font-size: 20px;
+	color: #2e445d;
+	margin-top: 20px;
+	position: relative;
+}
+.print {
+	position: absolute;
+    top: 2px;
+    right: 10px;
+    z-index: 3001;
+    width: 20px;
+}
+.time {
+	color: #8b95ab;
+	border: 0;
+	background: transparent;
+	width: 15%;
+    margin-left: 42.5%;
+    text-align: center;
+}
+.content_buss p {
+	font-size: 20px;
+	color: #2e445d;
+	background: #fff;
+	position: relative;
+}
+.arrive span {
+	color: #2db1ef;
+}
+.leftbox,.rightbox {
+	height: 780px;
+	overflow: auto;
+}
+.leftbox {
+	width: 30%;
+	margin-left: 3.33%;
+	margin-right: 3.33%;
+}
+.rightbox {
+	width: 60%;
+}
+.tablelist {
+	width: 100%;
+	background: #f1f4f8;
+}
+tr {
+	background: #f1f4f8;
+}
+th {
+	text-align: center;
+	height: 40px;
+	background: #cfdfef;
+	color: #2e445d;
+}
+td {
+	text-align: center;
+	height: 30px;
+}
+
+.close_buss {
+	position: absolute;
+    width: 10%;
+    height: 40px;
+    bottom: 3%;
+    border-radius: 5px;
+    left: 50%;
+    background: #2db1ef;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}

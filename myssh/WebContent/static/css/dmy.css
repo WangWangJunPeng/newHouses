@@ -1,0 +1,91 @@
+.ui-footer ~ .ui-container {
+    padding-top: 0;
+}
+
+.ui-list li h4 {
+    font-size: .42rem;
+    margin-left: .2rem;
+}
+
+.ui-list-thumb > span, .ui-list-thumb-s > span, .ui-list-img > span, .ui-list-icon > span {
+    display: block;
+    width: .6rem;
+    height: .55rem;
+    z-index: 1;
+    margin-left: .2rem;
+    background-repeat: no-repeat;
+}
+
+.top {
+    position: relative;
+    background: url(../images/my_bg.png) no-repeat 100% 100%;
+    background-size: cover;
+    width: 100%;
+    height: 9rem;
+    margin-bottom: .5rem;
+}
+
+.setting {
+	position: absolute;
+    top: .4rem;
+    right: .4rem;
+    width: .48rem;
+    height: .48rem;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+.head {
+	position: absolute;
+    width: 4rem;
+    height: 4rem;
+    top: 2rem;
+    left: 30%;
+}
+
+.headpro {
+	position: absolute;
+    width: 2.6rem;
+    height: 2.6rem;
+    top: .7rem;
+    left: 18%;
+    border-radius: 50%;
+}
+
+.head p {
+    margin-top: 0rem;
+    font-size: .4rem;
+    color: #fff;
+    text-align: center;
+    padding-right: .2rem;
+}
+
+#job {
+	color: #c1d6fc;
+}
+
+.ui-list-thumb {
+	width: .7rem;
+	height: .6rem;
+}
+
+h4 {
+	font-size: .46rem;
+	color: #666;
+}
+
+.task{
+    background-color: #f5f9fe;
+}
+
+.forms {
+	background-color: #f5f9fe;
+}
+
+
+
+
+

@@ -1,0 +1,131 @@
+body {
+	background-color: #efeff4;
+}
+
+.ui-header-positive {
+    background-color: #6197f3;
+}
+
+.setting {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    margin-top: -15px;
+    background: transparent;
+    border: 0;
+    border-width: 0;
+    width: .5rem;
+    height: .5rem;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.top {
+	width: 100%;
+	height: 4.5rem;
+	background: url(../images/bg.png) no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+.topbar {
+	width: 90%;
+	overflow: auto;
+	position: absolute;
+	top: .8rem;
+	left: .5rem;
+}
+.topLeft {
+	width: 10%;
+	height: .5rem;
+	float: left;
+}
+.topLeft img {
+	width:.5rem;
+	height: .5rem; 
+    position: absolute;
+}
+
+.topRight {
+	width: 85%;
+    height: .6rem;
+    float: left;
+    border-bottom: 1px solid #9db7e6;
+}
+.topRight h2 {
+	color: #fff;
+	font-size: .377rem;
+}
+.desc {
+	position: absolute;
+    top: 2rem;
+    left: 35%;
+    width: 100%;
+    color: #fff;
+    font-size: .377rem;
+}
+.desc img {
+	width: .4rem;
+	height: .4rem;
+	float: left;
+	margin-right: .1rem;
+	margin-top: .06rem;
+}
+.desc p {
+	position: absolute;
+	left: 6%;
+}
+#rili {
+	position: absolute;
+	top: 0rem;
+}
+
+.message {
+    width: 100%;
+    font-size: .4rem;
+    overflow: auto;
+    margin: .3rem 0;
+}
+
+.leftBox {
+    float: left;
+    width: 38%;
+    line-height: 1.5rem;
+    margin-left: .5rem;
+    font-weight: 500;
+}
+
+.leftBox span{
+	font-weight: normal;
+}
+
+.midBox {
+    float: left;
+    width: .4rem;
+    height: 2rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    overflow: hidden;
+}
+
+.rightBox {
+    float: left;
+    width: 40%;
+    height: 1.8rem;
+    background: #fff;
+    border-radius: .3rem;
+    line-height: 1.8rem;
+    overflow: hidden;
+}
+
+.rightBox p {
+	text-align: center;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

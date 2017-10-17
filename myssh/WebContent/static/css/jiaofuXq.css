@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #fff;
+}
+
+.mui-content {
+    background-color: #fff;
+}
+
+.content {
+	color: #666;
+    margin-top: .3rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    font-size: .377rem;
+}

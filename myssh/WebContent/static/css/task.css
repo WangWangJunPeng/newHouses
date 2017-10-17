@@ -1,0 +1,134 @@
+.ui-header-positive {
+    background-color: #659af4;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.top {
+	width: 100%;
+	height: 350px;
+	background: url('../images/my_bg.png') no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+.topbar {
+	width: 90%;
+	overflow: auto;
+	position: absolute;
+	top: .8rem;
+	left: .5rem;
+}
+.topLeft {
+	width: 10%;
+	height: .5rem;
+	float: left;
+}
+.topLeft img {
+	width:.5rem;
+	height: .5rem; 
+	position: absolute;
+}
+
+.topRight {
+	width: 85%;
+    height: .6rem;
+    float: left;
+    border-bottom: 1px solid #9db7e6;
+}
+.topRight h2 {
+	color: #fff;
+	font-size: .377rem;
+}
+.ui-border-b {
+    background-position: left bottom;
+    background-image: none;
+}
+
+.num {
+	width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 100px;
+    left: 27%;
+    color: #508bef;
+}
+.num p {
+	position: absolute;
+    top: 29px;
+    left: 38%;
+}
+.maintip {
+	position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    top: 1px;
+    color: #508bef;
+    font-size: 80px;
+}
+
+.desc {
+	position: absolute;
+    top: 300px;
+    left: 26%;
+    color: #fff;
+    font-size: 14px;
+}
+.desc img {
+	width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+.desc p {
+	position: absolute;
+	left: 6%;
+}
+.bottom {
+	width: 100%;
+	overflow: hidden;
+}
+
+.titp {
+	width: 100%;
+    height: 30px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+.titp p {
+	color: #666;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.right {
+	float: right;
+}
+
+.ui-list-thumb {
+	width: 30px;
+    height: 28px;
+}
+
+.ui-list li a {
+	font-size: 16px;
+	color: #666;
+}
+
+.panke{
+    background-color: #f5f9fe;
+}
+
+.pankeNum {
+	font-size: 16ox; 
+	color: #666;
+}
+
+#rili {
+	position: absolute;
+	top: 0rem;
+}

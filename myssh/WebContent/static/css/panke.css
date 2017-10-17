@@ -1,0 +1,163 @@
+body {
+	background-color: #efeff4;
+}
+
+.ui-header-positive {
+    background-color: #6197f3;
+}
+.ui-tab-nav li {
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .377rem;
+}
+.ui-tab-nav {
+    height: 1rem;
+}
+
+.setting {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    margin-top: -15px;
+    background: transparent;
+    border: 0;
+    border-width: 0;
+    width: .5rem;
+    height: .5rem;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.top {
+	width: 100%;
+	height: 2rem;
+	background: url(../images/jiefangTip.png) no-repeat;
+	background-size:cover;
+	position: relative;
+	overflow: hidden;
+}
+
+.topbar {
+	width: 90%;
+	overflow: auto;
+	position: absolute;
+	top: .8rem;
+	left: .5rem;
+}
+.topLeft {
+	width: 10%;
+	height: .5rem;
+	float: left;
+}
+.topLeft img {
+	width:.5rem;
+	height: .5rem; 
+	position: absolute;
+}
+
+.topRight {
+	width: 85%;
+    height: .6rem;
+    float: left;
+    border-bottom: 1px solid #9db7e6;
+    overflow:hidden;
+}
+.topRight h2 {
+	color: #fff;
+	font-size: .377rem;
+}
+
+#rili {
+	position: absolute;
+	top: 0rem;
+}
+/* 信息展示 */
+.main {
+    width: 100%;
+    margin: .15rem 0;
+    padding: .15rem 0;
+    background: #fff;
+    height: 5.5rem;
+}
+
+.leftbox {
+	float: left;
+	width: 40%;
+	height: 70%;
+	border: 1px solid #f2f2f2;
+	margin-left: .3rem;
+	margin-top: .2rem;
+}
+
+.leftbox img {
+	width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-top: .4rem;
+    margin-left: 25%;
+}
+.name {
+	font-size: .377rem;
+	color: #666;
+	width: 100%;
+    text-align: center;
+}
+.num {
+	font-size: .35rem;
+	color: #b6b6b6;
+	width: 100%;
+    text-align: center;
+}
+
+.rightbox {
+	width: 50%;
+    height: 70%;
+    float: right;
+    margin-right: .3rem;
+    margin-top: .2rem;
+}
+
+/* .messageList {
+    width: 96%;
+    margin: 0 auto;
+    background: #fff;
+} */
+.messageList {
+	margin: 0 auto;
+ 	border: 1px solid #f2f2f2;  
+	/* border: 1px solid #fff; */
+	width: 100%;
+	height: 100%;
+}
+th {
+	text-align: center;
+	border-collapse:collapse;
+}
+tr {
+	text-align: center;
+	font-size: .377rem;
+	color: #b6b6b6;
+}
+
+.leftNone {
+	border-left: none !important;
+}
+
+
+.main button {
+	background: #508bef;
+    color: #fff;
+    width: 2rem;
+    height: .8rem;
+    border: 0;
+    border-radius: .2rem;
+    margin-top: .3rem;
+    margin-left: 77%;
+        font-size: .377rem;
+}
+

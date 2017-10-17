@@ -1,0 +1,158 @@
+
+.top {
+	width: 100%;
+	height: 1.375rem;
+	background: url(../images/jiefangTip.png) no-repeat;
+	background-size:cover;
+	position: relative;
+}
+.topbar {
+	width: 90%;
+	overflow: auto;
+	position: absolute;
+	top: .4rem;
+	left: .1rem;
+	z-index:20;
+}
+.topLeft {
+	width: 10%;
+	height: .3rem;
+	float: left;
+}
+.topLeft img {
+	width:.18rem;
+	height: .17rem; 
+}
+.topRight {
+	width: 90%;
+	height: .3rem;
+	float: left;
+	border-bottom: 1px solid #9db7e6;
+	overflow: hidden;
+}
+.topRight h2 {
+	color: #fff;
+	font-size: 14px;
+	opacity: 0.8;
+}
+#main ,#mian1 ,#main2 {
+	width: 100%;
+	height:2.6rem;
+	dispaly:none;
+}
+#main {
+	height:2.8rem;
+}
+.bottom {
+	margin-top: .1rem;
+	width: 100%;
+	overflow: hidden;
+}
+.maintip {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	top: 3.15rem; 
+	color: #666666;
+	font-size: 14px;
+}
+.timeDiv {
+	position: absolute;
+	right: .2rem;
+	top: 1.1rem;
+}
+.div1 {
+	display: inline-block;
+	width: .5rem;
+	height: .5rem;
+	line-height: .5rem;
+	font-size: 14px;
+	color: #fff;
+	margin-left: .2rem;
+	background-color: #5297fc;
+	border-radius: 50%;
+	text-align: center;
+}
+.div2 {
+	font-size: 14px;
+	color: #508bef;
+}
+.titp {
+	width: 100%;
+	height: .4rem;
+	line-height: .2rem;
+	background-color: #efeff4;
+	padding-top: .1rem;
+	padding-left: .1rem;
+	margin-bottom: .15rem;
+}
+.titp p {
+	color: #555555;
+	font-size: 15px;
+	border-left:4px solid #555555;
+	padding-left: .1rem;
+	font-weight: bold;
+}
+.list {
+	width: 96%;
+	height: .5rem;
+	line-height: .5rem;
+	margin:0 auto;
+}
+.list img {
+	width: .14rem;
+	height: .14rem;
+}
+.listbar {
+	width: 100%;
+	overflow: auto;
+}
+.listbar img {
+	float: left;
+	vertical-align: middle;
+	margin-top: .18rem;
+}
+.rightlist {
+	float: left;
+	width: 92%;
+	padding-left: 4%;
+	border-bottom: 1px solid #dadada;
+}
+.ziti1 {
+	color: #666666;
+	font-size: 14px;
+}
+.ziti2 {
+	color: #bacffc;
+	font-size: 16px;
+}
+.right {
+	float: right;
+}
+.ziti3 {
+	color: #ee89dd;
+}
+.ziti4 {
+	color: #86e5f5;
+}
+.ziti5 {
+	color: #f58690;
+}
+.ziti6 {
+	color: #f5c786;
+}
+#rili {
+	position: absolute;
+	top: 0rem;
+}
+.shuoming {
+	width: 92%;
+	/* height: 1rem; */
+	margin:0 auto;
+	display: block;
+	border: none;
+	color:#999999;
+	font-size: 14px;
+	padding-bottom: .1rem;
+}

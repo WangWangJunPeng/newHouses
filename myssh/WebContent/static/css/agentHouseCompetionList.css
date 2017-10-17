@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+button {
+	border: 0;
+}
+
+.mui-content, body {
+	background: #fff;
+}
+
+.messageList {
+	position: relative;
+	height: 2.2rem;
+	border-bottom: 1px solid #dadada;
+	padding-top: .2rem;
+	background: #fff;
+	margin-top: .2rem;
+	margin-left: .5rem;
+}
+
+.messageList .title {
+	font-size: .4266rem;
+	color: #2c2b2b;
+	padding-left: .2rem;
+	border-left: .133rem solid #ff5a5f;
+}
+
+.messageList p {
+	font-size: .3733rem;
+	color: #999;
+}
+
+p img {
+	width: .3rem;
+	height: .3rem;
+}
+
+.bottomBtn {
+	width: 2.3rem;
+	height: 1rem;
+	background: #ff5a5f;
+	color: #fff;
+	border-radius: 0.1rem;
+	font-size: .355rem;
+	margin-top: 1rem;
+	margin-left: 40%;
+}
+
+.deleteRa {
+	width: 1.5rem;
+	height: 1rem;
+	position: absolute;
+	right: .1rem;
+	margin-top: -20%;
+}
+
+.mui-radio input[type='radio']:checked:before, .mui-checkbox input[type='checkbox']:checked:before
+	{
+	color: #ff5a5f;
+}
+
+.mui-radio input[type='radio'], .mui-checkbox input[type='checkbox'] {
+	width: 1rem;
+	height: 1rem;
+}
+
+.mui-radio input[type='radio']:before, .mui-checkbox input[type='checkbox']:before
+	{
+	font-size: .8rem;
+}
+
+.duibiBtn {
+	width: 2.3rem;
+	height: 1rem;
+	background: #ff5a5f;
+	color: #fff;
+	border-radius: 0.1rem;
+	font-size: .355rem;
+	position: absolute;
+	margin-left: 67%;
+	margin-top: -17%;
+}
+
+.duibiBtn span {
+	font-size: .477rem;
+	margin-right: .2rem;
+}
+
+#cancle {
+	display: none;
+	font-size: .377rem;
+	margin-top: .3rem;
+}

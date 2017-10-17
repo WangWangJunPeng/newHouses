@@ -1,0 +1,24 @@
+/* 
+* @Author: Marte
+* @Date:   2017-06-15 15:57:06
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-06-20 14:26:30
+*/
+ul, ol, li {list-style: none;padding: 0;margin: 0;}
+#main-content{background:#f0f4fb;}
+.frame{background:#f0f4fb;}
+.colmd{float: right;color:#565e78;font-size: 14px;;}
+#ca{width:240px;height:220px;background:#47506c;}
+/*th{background:#c9d9f8 !important;}*/
+th{font-size: 14px !important;color:#565e78 !important;border:1px solid #d6dfe6;text-align: center;}
+td{font-size: 16px !important;;color:#626873 !important;;text-align: center;border:1px solid #d6dfe6;}
+table.display thead th{border-bottom:1px solid #d6dfe6 !important;}
+table.dataTable.no-footer{border-bottom:1px solid #d6dfe6 !important;}
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 0px solid #111 !important;
+}
+.dataTables_length{display:none;}
+.dataTables_filter{display:none;}
+.dataTables_info{display:none;}
+.dataTables_paginate{display:none;}
+.noDrop span{padding-left:5px;color:#ffffff;font-size: 16px;}

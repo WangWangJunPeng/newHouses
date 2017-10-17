@@ -1,0 +1,42 @@
+.changePho {
+	position: relative;
+	width: 80%;
+	background: #fff;
+	border-radius: 30px;
+	margin-left: 12%;
+	margin-top: 15%;
+}
+
+.leaveBtn {
+	background: #2db1ef;
+    border: 0;
+    border-radius: 5px;
+    width: 70%;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    margin-left: 25%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.leave_main {
+    width: 350px;
+    background: #fff;
+    margin-left: 42%;
+    margin-top: 25%;
+    position: relative;
+    border-radius: 30px;
+    
+}
+
+.goodbye {
+	font-size:12px;
+	font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #2db1ef;
+}

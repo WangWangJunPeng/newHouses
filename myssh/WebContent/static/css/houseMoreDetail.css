@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+body {
+	background: #f3f3f3;
+}
+.mui-content {
+	background: #f3f3f3;
+}
+.title {
+    color: #fd6767;
+    padding-left: 0.1rem;
+    font-size: .3733rem;
+    margin-top: .3rem;
+    border-left: 6px solid #fd6767;
+    margin-bottom: .3rem;
+    margin-left: .3rem;
+}
+
+.mui-table-view-cell {
+    font-size: .364rem;
+    color: #666;
+}

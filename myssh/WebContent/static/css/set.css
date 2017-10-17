@@ -1,0 +1,70 @@
+.form-control {
+	width: 80%;
+    color: #2e445d;
+    background-image: none;
+    border: 0;
+    border-radius: 10px;
+    background: #e4ebf2;
+}   
+
+.set_main {
+	position: relative;
+	width: 80%;
+	margin-left: 10%;
+	background: #fff;
+	margin-top: 10%;
+	border-radius: 5px;
+}
+
+.set_content {
+	width: 100%;
+	border-top: 1px solid #2db1ef;
+}
+.set_title {
+	margin-top: 20px;
+	color: #2e445d;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.set_left {
+	width: 40%;
+}
+.login_form {
+	width: 80%;
+    margin-left: 10%;
+}
+.loginBtn {
+	width: 50%;
+    margin-left: 20%;
+    height: 55px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.radioCh {
+	padding-left: 0;
+}
+
+.set_right {
+	width: 60%;
+}
+.groupName {
+	background: #cfdfef;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 0;
+}
+.group1 {
+	background: #f1f4f8;
+	height: 300px;
+	margin-bottom: 20px;
+	overflow: auto;
+}
+.group2 {
+	background: #f1f4f8;
+	height: 300px;
+	margin-bottom: 20px;
+	overflow: auto;
+}

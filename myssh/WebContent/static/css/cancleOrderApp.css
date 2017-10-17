@@ -1,0 +1,94 @@
+body{
+	background:#efeff4;
+}
+.ui-header-positive i {
+	color:#666666;
+}
+.ui-header-positive, .ui-footer-positive {
+    background-color: #fff;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+.ui-radio {
+    line-height: 1.6rem;
+    display: inline-block;
+    margin-left: .5rem;
+    font-size: .43rem;
+    width: 90%;
+}
+.ui-radio input:checked:after {
+    background: #508bef;
+}
+
+.ui-radio input {
+    float: right;
+    margin-top: .4rem;
+}
+
+.cancleReason {
+	background-color: #fff;
+	width: 100%;
+	height: 3rem;
+	text-align: center;
+	margin-top: 1.3rem;
+}
+
+.cancleReason p{
+	padding-top: .8rem;
+    font-size: .5rem;
+    color: #333;
+}
+
+.cancleReason h5 {
+	font-size: .377rem;
+	color: #b7b7b7;
+}
+
+.optionSection {
+	background-color: #fff;
+	width: 100%;
+	height: 1.5rem;
+	margin-top: .2rem;
+}
+
+#firstOption {
+	margin-top: .5rem;
+}
+
+.inputSection {
+	background-color: #fff;
+	margin-top: .4rem;
+}
+
+.reasonInput {
+	width: 90%;
+    height: 2rem;
+    background-color: #f3f4f5;
+    border: thin #e5e5e5;
+    border-radius: .2rem;
+    font-size: .4rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    margin-left: .4rem;
+    padding-top: .2rem;
+    padding-left: .2rem;
+}
+
+.btnSection {
+	background-color: #fff;
+	margin-top: .1rem;
+}
+
+.confirmBtn {
+	width: 90%;
+    height: 1.5rem;
+    color: #FFFFFF;
+    background-color: #508bef;
+    font-size: .4rem;
+    border-radius: .1rem;
+    border: 0;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    margin-left: .5rem;
+}
+

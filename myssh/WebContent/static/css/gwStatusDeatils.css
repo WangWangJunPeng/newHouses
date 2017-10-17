@@ -1,0 +1,101 @@
+.top {
+	background: url(../images/bk2.png) no-repeat;
+	background-size: cover;
+}
+#charts {
+	width: 100%;
+	height: 2.6rem;
+}
+.left {
+	float: left;
+	font-size: 14px;
+	color: #555555;
+	font-weight: bold;
+}
+.right {
+	font-size: 12px;
+	color: #555555;
+}
+.right img {
+	margin-left: .08rem;
+	width: 0.13rem;
+	height: 0.07rem;
+}
+.ren {
+	position: absolute;
+	top: 1.4rem;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.mid {
+	width: 90%;
+	height: .35rem;
+	line-height: .35rem;
+	margin:0 auto;
+	overflow: auto;
+	border-bottom: 1px solid #dadada;
+}
+.midd {
+	width: 90%;
+	margin:0 auto;
+	padding-top: 0.1rem;
+}
+.line11 {
+	width: 100%;
+	height: 0.225rem;
+	line-height: 0.225rem;
+	overflow: auto;
+	margin-bottom: 0.1rem;
+}
+#leftbox1 {
+	width: 2rem;
+	height: 0.225rem;
+	background: #8caaff;
+}
+#leftbox2 {
+	width: 1rem;
+	height: 0.225rem;
+	background: #ff9f98;
+}
+.leftbox {
+	float: left;
+}
+.rightbox {
+	float: right;
+}
+.rightbox p {
+	font-size: 13px;
+	color: #666666;
+}
+.ren img {
+	width: .6rem;
+	height: .6rem;
+}
+.nameCss {
+	text-align: center;
+	color: #666666;
+	font-size: 14px;
+}
+.xinxiCss {
+	display: inline-block;
+	width: auto;
+	padding: .01rem .05rem ;
+	border-radius: 4px;
+	background-color: #ff9f98;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	margin-left: .1rem;
+}
+.lnged {
+	margin-top: .5rem;
+}
+.lnged1 {
+	padding-top: 0.12rem;
+}
+.whiteD {
+	width: 100%;
+	height: 0.075rem;
+	background: #efeff4;
+}

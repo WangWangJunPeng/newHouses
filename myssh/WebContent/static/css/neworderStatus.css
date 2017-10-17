@@ -1,0 +1,21 @@
+.line1 {
+	width: 94%;
+	height: 1.333rem;
+	margin:0 auto;
+}
+.leftBox {
+	float:left;
+	width: 30%;
+	height: 1.333rem;
+	line-height: 1.333rem;
+	font-size:.3733rem;
+	color:#999;
+}
+.rightBox {
+	position: relative;
+	float: left;
+	width: 70%;
+	height: 1.333rem;
+	line-height: 1.333rem;
+	color:#333;
+}
